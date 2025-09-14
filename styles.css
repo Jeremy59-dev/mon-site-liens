@@ -1,0 +1,59 @@
+body {
+    background: #e3eafc; /* gris bleuté */
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Permet d'empiler le contenu et le footer */
+}
+
+.lien-container {
+    background: #fff;
+    padding: 32px 40px;
+    border-radius: 16px;
+    box-shadow: 0 24px 48px -8px rgba(60, 90, 150, 0.38), 
+                -20px 24px 48px -8px rgba(60, 90, 150, 0.28); /* ombre encore plus prononcée en bas et à gauche */
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.lien-container h1 {
+    color: #000; /* noir simple */
+    margin-bottom: 24px;
+}
+
+.lien-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lien-container li {
+    margin: 16px 0;
+}
+
+.lien-container a {
+    color: #3a5ca8;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.2s;
+}
+
+.lien-container a:hover {
+    color: #1d3557;
+}
+
+/* Footer collé en bas de page */
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #555;
+    font-size: 0.95em;
+    padding: 16px 0;
+    background: transparent;
+}
