@@ -52,6 +52,13 @@ body {
 .lien-container a:hover {
     color: #1d3557;
 }
+p{
+    font-family: "Dancing Script", "Brush Script MT", cursive;
+    font-size: large;
+    font-weight: 800;
+    letter-spacing: 0.01em;
+}
+
 
 /* Footer collé en bas de page */
 footer {
