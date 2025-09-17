@@ -8,6 +8,11 @@ body {
     flex-direction: column; /* Permet d'empiler le contenu et le footer */
 }
 
+h1{
+    text-align: center;
+    color: #FFA500;
+}
+
 .lien-container {
     background: #fff;
     padding: 32px 40px;
@@ -17,9 +22,11 @@ body {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: 22px;
+    margin-right: 22px;
 }
 
-.lien-container h1 {
+.lien-container h2 {
     color: #000; /* noir simple */
     margin-bottom: 24px;
 }
@@ -57,6 +64,7 @@ p{
     font-size: large;
     font-weight: 800;
     letter-spacing: 0.01em;
+    text-align: center;
 }
 
 
