@@ -1,5 +1,5 @@
 body {
-    background: #e3eafc; /* gris bleuté */
+    background: #FDF6EC; /* beige */
     min-height: 100vh;
     margin: 0;
     display: flex;
@@ -24,6 +24,10 @@ h1{
     margin-bottom: auto;
     margin-left: 22px;
     margin-right: 22px;
+    transition: transform 0.3s ease; /* animation fluide */
+}
+.lien-container:hover {
+  transform: scale(1.05); /* grossit de 5% */
 }
 
 .lien-container h2 {
@@ -65,8 +69,17 @@ p{
     font-weight: 800;
     letter-spacing: 0.01em;
     text-align: center;
+    display: inline-block; /* nécessaire pour que le scale s'applique bien */
+    animation: pulse 2s infinite ease-in-out;
 }
-
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);   /* taille normale */
+  }
+  50% {
+    transform: scale(1.2); /* grossit de 20% */
+  }
+}
 
 /* Footer collé en bas de page */
 footer {
